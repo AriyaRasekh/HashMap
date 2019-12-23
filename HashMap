@@ -1,4 +1,4 @@
-/** HashMap for 254. A simplified version of HashMap.
+/** HashMap 
  * Use separate chaining to resolve collisions.
  */
 
