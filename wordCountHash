@@ -82,7 +82,6 @@ public class WordCountHash {
 
         } else if (method.equals("HASH")) {
             HashMap<String, Integer> map = new HashMap<String, Integer>();
-            //	Hashtable<String, Integer> map = new Hashtable<String, Integer>();
             int len = tokens.length;
             for (int i = 0; i < len; i++) {
                 String token = tokens[i];
