@@ -67,13 +67,13 @@ public class HashMap<Key, Value> {
         // double table size if load factor m/n >0.1
         if (n >= 10 * m)
             resize(2 * m);
-        /////////////////////////////new////////////////////////////
+       
         int i = myhash(key);
         if (st[i].get(key)==null){
             n++;
         }
         st[i].put(key , val);
-        //////////////////////////new///////////////////////////////
+        
 
     }
 
