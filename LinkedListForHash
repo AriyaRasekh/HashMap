@@ -62,7 +62,4 @@ public class LinkedListForHash<Key, Value> {
         x.next = delete(x.next, key);
         return x;
     }
-
-
-
 }
