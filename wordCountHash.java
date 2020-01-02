@@ -116,8 +116,7 @@ public class WordCountHash {
 
     static String[] readText(String PATH) throws Exception {
         Scanner doc = new Scanner(new File(PATH)).useDelimiter("[^a-zA-Z]+");
-        // tokenize text. any characters other than English letters(a-z and A-Z
-        // ) are delimiters.
+        // tokenize text. any characters other than English letters(a-z and A-Z) are delimiters.
         int length = 0;
         while (doc.hasNext()) {
             doc.next();
