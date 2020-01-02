@@ -44,7 +44,7 @@ public class HashMap<Key, Value> {
     // hash value between 0 and m-1
     private int myhash(Key key) {
         int hash = 7;
-        String k = (String) key; //here we assume keys are strings.
+        String k = (String) key; //here we assume keys are strings
         int base=31;
 
         for (int i=0; i<k.length(); i++) {
