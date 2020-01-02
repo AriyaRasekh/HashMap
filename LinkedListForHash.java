@@ -1,5 +1,6 @@
 import java.util.LinkedList;
 
+
 public class LinkedListForHash<Key, Value> {
     private int n;           // number of key-value pairs
     private Node first;      // the linked list of key-value pairs
